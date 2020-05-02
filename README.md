@@ -1,2 +1,7 @@
 # build-debian-unstable-package
-Docker image to build packages
+
+## Building
+docker build . --tag ilvez/build-package
+
+## Running
+docker run -it --entrypoint /bin/bash ilvez/build-package

@@ -6,7 +6,7 @@ Built by Docker Hub: https://hub.docker.com/r/ilvez/build-debian-unstable-packag
 `docker pull ilvez/build-debian-unstable-package`
 
 ## Building
-`docker build . --tag ilvez/build-package`
+`docker build . --tag ilvez/build-debian-unstable-package`
 
 ## Running
-`docker run -it --entrypoint /bin/bash ilvez/build-package`
+`docker run -it --entrypoint /bin/bash ilvez/build-debian-unstable-package`
